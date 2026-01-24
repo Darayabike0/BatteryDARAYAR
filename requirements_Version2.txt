@@ -1,0 +1,87 @@
+Flask>=2.0
+Flask-Cors>=3.0
+
+C:\Users\darayar.online>        data.get("weight_g"),
+'data.get' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>        data.get("shell_material"),
+'data.get' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>        applications,
+'applications' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>        data.get("warranty"),
+'data.get' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>        item_id
+'item_id' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>    ))
+'))' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>    get_db().commit()
+'get_db' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>    if cur.rowcount == 0:
+The syntax of the command is incorrect.
+
+C:\Users\darayar.online>        abort(404)
+'abort' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>    return jsonify({"updated": item_id})
+'return' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>
+C:\Users\darayar.online>@app.route("/api/batteries/<int:item_id>", methods=["DELETE"])
+'app.route' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>def delete_battery(item_id):
+'def' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>    cur = get_db().cursor()
+'cur' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>    cur.execute("DELETE FROM batteries WHERE id = ?", (item_id,))
+'cur.execute' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>    get_db().commit()
+'get_db' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>    if cur.rowcount == 0:
+The syntax of the command is incorrect.
+
+C:\Users\darayar.online>        abort(404)
+'abort' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>    return jsonify({"deleted": item_id})
+'return' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>
+C:\Users\darayar.online>if __name__ == "__main__":
+The syntax of the command is incorrect.
+C:\Users\darayar.online>    if not DB_PATH.exists():
+The syntax of the command is incorrect.
+C:\Users\darayar.online>        print(f"Database not found at {DB_PATH}. Run scripts/init_db.py first.")
+Unable to initialize device PRN
+
+C:\Users\darayar.online>    app.run(debug=True, host="0.0.0.0", port=5000)
+'app.run' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\darayar.online>

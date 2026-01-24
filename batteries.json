@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "BatteryDARAYAR 12V 3S2P 18650",
+    "cell_type": "18650 Li-ion",
+    "configuration": "3S2P",
+    "nominal_voltage_v": 11.1,
+    "max_voltage_v": 12.6,
+    "typical_capacity_mAh": 8000,
+    "cell_count": 6,
+    "weight_g": 260,
+    "shell_material": "Aluminum/Polymer",
+    "applications": ["E-bikes", "portable tools", "audio gear"],
+    "warranty": "1 year"
+  }
+]
